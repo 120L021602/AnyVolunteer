@@ -1,0 +1,17 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml:3:7-27
+		INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml
+INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\java\AndroidManifest.xml

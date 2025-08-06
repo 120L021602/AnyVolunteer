@@ -1,0 +1,17 @@
+{
+  "installationFolder": "D:\\hku\\project\\AnyVolunteer_GroupProject 6\\OpenCV\\build\\intermediates\\prefab_package\\debug\\prefab",
+  "gradlePath": ":OpenCV",
+  "packageInfo": {
+    "packageName": "OpenCV",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "D:\\hku\\project\\AnyVolunteer_GroupProject 6\\OpenCV\\native\\jni\\include",
+        "moduleExportLibraries": [],
+        "abis": []
+      }
+    ]
+  }
+}

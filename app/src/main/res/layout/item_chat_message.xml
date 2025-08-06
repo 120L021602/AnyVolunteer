@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- LLM reply (left side) -->
+    <TextView
+        android:id="@+id/tvLeftMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_llm_bubble"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:layout_marginEnd="48dp"
+        android:visibility="gone" />
+
+    <!-- 用户消息容器：图片 + 文字 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        android:layout_marginStart="48dp">
+
+        <!-- 用户文字消息 -->
+        <TextView
+            android:id="@+id/tvRightMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_user_bubble"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:visibility="gone" />
+
+        <!-- 用户图片消息 -->
+        <ImageView
+            android:id="@+id/imgRightImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

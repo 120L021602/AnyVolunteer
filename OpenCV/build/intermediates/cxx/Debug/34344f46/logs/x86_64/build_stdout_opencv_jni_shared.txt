@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\hku\project\AnyVolunteer_GroupProject 6\OpenCV\.cxx\Debug\34344f46\x86_64'
+ninja: no work to do.
